@@ -1,4 +1,11 @@
+# Ignore all files at the root
 /*
-!/coding-study/
+
+# Allow the .gitignore file itself
 !.gitignore
-.obsidian/
+
+# Allow the study folder directory
+!/coding-study/
+
+# If you have files INSIDE that folder, you must un-ignore those too
+!/Coding-Archive/**
