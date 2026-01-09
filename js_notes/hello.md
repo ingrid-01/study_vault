@@ -1,1 +1,0 @@
-I am starting my JS journey.
