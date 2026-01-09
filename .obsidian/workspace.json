@@ -1,0 +1,312 @@
+{
+  "main": {
+    "id": "3d9ae3d8213e5e8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb7f5d5360739e11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "363c75f0a3bde835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "👩🏻‍💻 coding_study/JavaScript/2026-01-09 13-36.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-09 13-36"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ef5d132975d36f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d1d2ff0909f7f9e",
+        "type": "tabs",
+        "dimension": 69.32515337423312,
+        "children": [
+          {
+            "id": "fea0d18dfca49dfd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7464c368afbde78e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "133586b03fb909fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "e1ac4763640b3188",
+        "type": "tabs",
+        "dimension": 30.67484662576687,
+        "children": [
+          {
+            "id": "7b244343fd1c8cfb",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 214.5
+  },
+  "right": {
+    "id": "d2f9cd73f3aca308",
+    "type": "split",
+    "children": [
+      {
+        "id": "96bf408b366440d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f206887717bc9135",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "💻 programming/👩🏻‍💻 Harvard CS50x 2025/Lec 0. Scratch.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.0422389778813672,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Lec 0. Scratch"
+            }
+          },
+          {
+            "id": "e2ac71091dd38335",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "💻 programming/👩🏻‍💻 Harvard CS50x 2025/Lec 0. Scratch.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lec 0. Scratch"
+            }
+          },
+          {
+            "id": "69bc01538f7fda36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "💻 programming/👩🏻‍💻 Harvard CS50x 2025/Lec 0. Scratch.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lec 0. Scratch"
+            }
+          },
+          {
+            "id": "65ec5a94b0277522",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9ecf08e24b48c734",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d9f4d9c827316e72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "💻 learnprogramming/The Odin Project/1. Foundation Course/6.0 - Personal Projects.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 6.0 - Personal Projects"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "b28c948033af4106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cee61f16fa6693b0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "fea0d18dfca49dfd",
+  "lastOpenFiles": [
+    "👩🏻‍💻 coding_study/JavaScript/Study Vault Readme template.md",
+    "👩🏻‍💻 coding_study/JavaScript/JS note Template.md",
+    "👩🏻‍💻 coding_study/Daily_Learning_Log",
+    "👩🏻‍💻 coding_study/Jira-Setup",
+    "👩🏻‍💻 coding_study/JavaScript",
+    "👩🏻‍💻 coding_study",
+    "📝 Daily Journal/2025-11-14.md",
+    "Concept 1.md",
+    "_000 Home.md",
+    "_010 CS MOC.md",
+    "_020 Introspection MOC.md",
+    "2025-11-14.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "스코프와 클로저.md",
+    "👩🏻‍💻 coding_study/JavaScript/2026-01-09 13-36.md",
+    "💻 programming/JS/책_JS DeepDive/00 Inbox/Date Difference Calculation.md",
+    "💻 programming/study_vault",
+    "💻 programming/JS/책_JS DeepDive/00 Inbox/04 변수.md",
+    "Resources/Images/Screenshots/Screenshot 2026-01-05 at 22.21.09.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-26 at 16.27.30.png",
+    "💻 programming/JS/책_JS DeepDive/00 Inbox/02 JS 란?.md",
+    "💻 programming/JS/책_JS DeepDive/00 Inbox/01 프로그래밍.md",
+    "💻 programming/📝 etc./20251217 - 이재호 - 다음 세계, 피지컬 AI.md",
+    "Resources/Images/Screenshots/Screenshot 2025-12-18 at 17.52.12.png",
+    "💻 programming/📝 etc./Untitled",
+    "Resources/Images/Screenshots/Screenshot 2025-12-16 at 13.01.20.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-15 at 18.13.31.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-14 at 18.53.49.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-14 at 18.32.33.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-14 at 18.18.20.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-14 at 18.18.13.png",
+    "Resources/Images/Screenshots/Screenshot 2025-12-14 at 18.16.11.png",
+    "💻 programming/JS/책_JS DeepDive/10 Book/1.1 프로그래밍이란?.md",
+    "💻 programming/JS/책_JS DeepDive/90 Templates/Atomic Concept Note.md",
+    "💻 programming/JS/책_JS DeepDive/90 Templates/Chapter Summary Note.md",
+    "💻 programming/JS/책_JS DeepDive/90 Templates",
+    "💻 programming/JS/책_JS DeepDive/30 Attachments",
+    "💻 programming/JS/책_JS DeepDive/20 Concepts",
+    "💻 programming/📝 etc./251126 - 청년재단 포트폴리오 인강.md",
+    "💻 programming/📝 etc./071125, 141125 - AI시대, 자기역량 강화 프로젝트 강연 1, 2.md",
+    "💻 programming/👾 Codecademy/4. Introduction to IT - DROPPED.md",
+    "💻 programming/👾 Codecademy/3.ii. Learn What to Learn - Paths in Programming.md",
+    "💻 programming/👾 Codecademy/3.i. Learn What to Learn - Overview.md",
+    "📚 2025/01. How to Take Smart Notes - Sönke Ahrens.md",
+    "💻 programming/JS/책_JS 입문/6. 여러 자료를 한꺼번에 담는 객체.md",
+    "👾 Codecademy/Untitled.canvas"
+  ]
+}
