@@ -1,1 +1,1 @@
-I am starting my JS journey today!
+I am starting my JS journey.
