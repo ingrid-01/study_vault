@@ -62,17 +62,16 @@
         function drawBall(number, $parent) {
           const $ball = document.createElement("div");
           $ball.className = "ball";
-          $ball.textContent = winBalls[i];
-          $result.appendChild($ball);
+          $ball.textContent = number;
+          $parent.appendChild($ball);
         }
         for (let i = 0; i < winBalls.length; i++) {
-          setTimeout(() => {}, 1000 * (i + 1));
+          setTimeout(() => {
+            drawBall(winBalls[i], $result);
+          }, 1000 * (i + 1));
         }
         setTimeout(() => {
-          const $ball = document.createElement("div");
-          $ball.className = "ball";
-          $ball.textContent = bonus;
-          $result.appendChild($ball);
+          drawBall(bonus, $bonus);
         }, 7000);
       });
     </script>
