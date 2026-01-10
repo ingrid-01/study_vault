@@ -48,6 +48,7 @@
       function drawBall(number, $parent) {
         const $ball = document.createElement("div");
         $ball.className = "ball";
+        colorize(number, $ball);
         $ball.textContent = number;
         $parent.appendChild($ball);
       }
@@ -55,8 +56,15 @@
         new Promise((resolve, reject) => {
           setTimeout(resolve, ms);
         });
+      let clickable = true;
       $form.addEventListener("submit", async (event) => {
         event.preventDefault();
+        if (!clickable) {
+          return;
+        }
+        clickable = false;
+        $result.innerHTML = "당첨 숫자: ";
+        $bonus.innerHTML = "보너스 숫자: ";
         const string = event.target.input.value;
         if (!string.trim()) {
           return alert("숫자를 입력하세요.");
@@ -114,6 +122,7 @@
         } else {
           alert("로또 참 어렵죠?");
         }
+        clickable = true;
       });
     </script>
   </body>
