@@ -59,7 +59,7 @@
         const winBalls = shuffle.slice(0, 6).sort((a, b) => a - b);
         const bonus = shuffle[6];
         console.log(winBalls, bonus);
-        
+        function drawBall(number, $parent)
         for (let i = 0; i < winBalls.length; i++) {
           setTimeout(() => {
             const $ball = document.createElement("div");
