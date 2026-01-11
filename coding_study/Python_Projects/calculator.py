@@ -15,6 +15,5 @@ def calculate(a, b, op):
     return a / b
   else:
       return "잘못된 연산자입니다."
-
 result = calculate(num1, num2, op)
 print(f"결과:", result)
