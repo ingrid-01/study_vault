@@ -1,0 +1,11 @@
+# Ignore all files at the root
+/*
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow the study folder directory
+!/coding_study/
+
+# If you have files INSIDE that folder, you must un-ignore those too
+!/Coding-Archive/**
