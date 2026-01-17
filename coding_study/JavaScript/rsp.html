@@ -43,12 +43,21 @@
         $computer.style.background = `url(${IMG_URL}) ${rspX[computerChoice]} 0`;
         $computer.style.backgroundSize = "auto 200px";
       };
+      let intervalId = setInterval(changeComputerHand, 50);
+      // 점수표
+      // 가위: 1, 바위: 0, 보: -1
+      // 사용자 \ 컴퓨터 | 가위(1) | 바위(0) | 보(-1)
+      // 가위(1)         |  0     | -1     | 2
+      // 바위(0)         | -1     | 0      | 1
+      // 보(-1)         | -2      | -1     | 0
       const scoreTable = {
         scissors: 1,
         rock: 0,
         paper: -1,
       };
       let clickable = true;
+      let computer = 0;
+      let me = 0;
       const clickButton = (event) => {
         if (clickable) {
           clearInterval(intervalId);
@@ -60,14 +69,24 @@
                 ? "scissors"
                 : "paper";
           const myScore = scoreTable[myChoice];
-          const computerScore = soreTable[computerChocice];
+          const computerScore = scoreTable[computerChoice];
           const diff = myScore - computerScore;
-          if (diff === 2 || diff === -1) {
-            console.log("승리");
-          } else if (diff === -2 || diff === 1) {
-            console.log("패배");
+          let message;
+          if ([2, -1].includes(diff)) {
+            me += 1;
+            message = "승리";
+          } else if ([-2, 1].includes(diff)) {
+            computer += 1;
+            message = "패배";
           } else {
-            console.log("무승부");
+            message = "무승부";
+          }
+          if (me === 3) {
+            $score.textContent = `사용자의 승리 ${me}:${computer}`;
+          } else if (computer === 3) {
+            $score.textContent = `컴퓨터의 승리 ${me}:${computer}`;
+          } else {
+            $score.textContent = `${message} ${me}:${computer}`;
           }
           setTimeout(() => {
             clickable = true;
@@ -75,6 +94,9 @@
           }, 1000);
         }
       };
+      $rock.addEventListener("click", clickButton);
+      $scissors.addEventListener("click", clickButton);
+      $paper.addEventListener("click", clickButton);
     </script>
   </body>
 </html>
