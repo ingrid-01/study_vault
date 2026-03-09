@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counselling Web Form</title>
+  </head>
+  <body>
+    <h1>Counselling Web Form</h1>
+    <form action="#" method="POST">
+      <label for="name">Full Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+      />
+      <br />
+
+      <label for="service-type">Service Type:</label>
+      <select name="service-type" id="service-type" required>
+        <option value="">-- Select Service Type --</option>
+        <option value="private">personal counselling</option>
+        <option value="couple">couple counselling</option>
+        <option value="group">group / family counselling</option>
+        <option value="adolescent">
+          adolescent &amp; young adult counselling
+        </option>
+        <option value="personality">personality testing</option>
+        <option value="career">career counselling</option>
+        <option value="other">other</option>
+      </select>
+      <br />
+
+      <fieldset>
+        <legend>Gender:</legend>
+        <label> <input type="radio" name="gender" value="male" /> Male </label>
+        <label>
+          <input type="radio" name="gender" value="female" /> Female
+        </label>
+        <label>
+          <input type="radio" name="gender" value="non-binary" /> Non-binary
+        </label>
+        <label>
+          <input type="radio" name="gender" value="not-disclosed" /> Prefer not
+          to disclose
+        </label>
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <legend>Age Group:</legend>
+        <label> <input type="radio" name="age" value="18-25" /> 18-25 </label>
+        <label> <input type="radio" name="age" value="26-35" /> 26-35 </label>
+        <label> <input type="radio" name="age" value="36-45" /> 36-45 </label>
+        <label> <input type="radio" name="age" value="46-60" /> 46-60 </label>
+        <label> <input type="radio" name="age" value="60+" /> 60+ </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you hear about us?</legend>
+        <label>
+          <input type="checkbox" name="source" value="google" /> Google
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="family-friend" /> Family /
+          Friend
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="social-media" /> Social
+          Media
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="other" /> Other
+        </label>
+      </fieldset>
+      <br />
+
+      <label for="message">Why are you seeking a counselling service:</label>
+      <textarea
+        name="message"
+        id="message"
+        rows="8"
+        cols="20"
+        placeholder="Write your message here..."
+      ></textarea>
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
