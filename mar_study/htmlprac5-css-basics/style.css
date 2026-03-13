@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
 h1 {
-  color: red;
+  color: #333333;
+  font-size: 32px;
+}
+
+p {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.box {
+  background-color: white;
+  width: 300px;
+  border: 1px solid #cccccc;
+  padding: 20px 40px;
+  margin: 20px auto;
+}
+
+.highlight {
+  color: green;
+  color: orange;
+}
+
+#unique {
+  color: purple;
 }
