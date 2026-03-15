@@ -4,3 +4,25 @@
   box-sizing: border-box;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6c5f6;
+  padding: 10px 20px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: normal;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.nav-item a:hover {
+  color: #6b82d4;
+}
