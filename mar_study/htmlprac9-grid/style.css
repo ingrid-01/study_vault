@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+grid-container {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.item {
+  background-color: #b5d57b;
+  border: 1px solid #2e2e2d;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
