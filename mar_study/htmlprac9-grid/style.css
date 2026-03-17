@@ -22,5 +22,15 @@ grid-container {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 100px 200px;
+  gap: 20px;
+}
+
+.item:first-child {
+  grid-column: span 2;
+}
+
+.item:nth-child(3) {
+  grid-row: span 2;
 }
