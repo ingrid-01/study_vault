@@ -1,0 +1,50 @@
+.parent {
+  position: relative;
+  background-color: #ddd;
+  height: 200px;
+  margin: 20px;
+}
+
+.static {
+  background-color: #b5d57b;
+  padding: 10px;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: #ffbc6a;
+  padding: 10px;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f06292;
+  padding: 10px;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #64b5f6;
+  padding: 10px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #ce93d8;
+  padding: 10px;
+}
+
+.relative {
+  position: relative;
+  top: 50px;    /* nudges DOWN 50px from where it naturally sits */
+  left: 50px;   /* nudges RIGHT 50px */
+  background-color: #ffbc6a;
+  padding: 10px;
+}
