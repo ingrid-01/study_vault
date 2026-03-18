@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 0px 0px 10px;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+li {
+  font-family:
+    nanum myeongjo,
+    serif;
+  padding: 0 1rem;
+}
+
+nav a:link {
+  text-decoration: none;
+  color: rgb(2, 55, 112);
+}
+
+nav a:visited {
+  color: rgb(2, 55, 112);
+}
+
+nav a:hover {
+  color: rgb(48, 169, 255);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(230, 246, 250);
+  padding: 30px;
+  margin: 10px 0px 0px;
+}
