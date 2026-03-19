@@ -6,9 +6,7 @@
 
 body {
   background-color: #fff;
-  font-family:
-    nanum myeongjo,
-    serif;
+  font-family: "Nanum Myeongjo", serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
