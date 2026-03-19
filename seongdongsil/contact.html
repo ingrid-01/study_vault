@@ -14,6 +14,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <header>
@@ -33,54 +38,58 @@
 
     <main>
       <h2>문의 및 링크</h2>
+
       <section id="kakao">
-        <h2>성장동력실 카톡 오픈채팅방 링크</h2>
-        <p>
-          <a
-            href="https://open.kakao.com/o/ggrXez5h"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            성장동력실 링크
-          </a>
-        </p>
+        <h2>성장동력실 카카오톡 오픈채팅방</h2>
+        <a
+          href="https://open.kakao.com/o/ggrXez5h"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link kakao"
+        >
+          <i class="fa-solid fa-comment"></i>
+          오픈채팅방 참여하기
+        </a>
       </section>
 
       <section id="discord">
         <h2>성장동력실 디스코드 서버</h2>
-        <p>
-          <a
-            href="https://discord.gg/X3T97wVYXd"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            성장동력실 디스코드 서버
-          </a>
-        </p>
+        <a
+          href="https://discord.gg/X3T97wVYXd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link discord"
+        >
+          <i class="fa-brands fa-discord"></i>
+          디스코드 참여하기
+        </a>
       </section>
 
       <section id="inquiry">
         <h2>문의하기</h2>
-        <p>문의 사항은 아래 메세지로 남겨주세요.</p>
+        <p>문의 사항은 아래 구글 폼을 통해 남겨주세요.</p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdsNwufP9dA5xRJlw2Zbqz-J8GXjS5h3ZoUSTIDv5auiPWZqw/viewform?usp=header"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="social-link"
+          >문의 양식 작성하기</a
+        >
+
+        <!-- <p>문의 사항은 아래 메세지로 남겨주세요.</p>
 
         <form action="#" method="POST">
-          <label for="nickname">카톡방 닉네임:</label><br />
-          <input
-            type="text"
-            id="nickname"
-            name="nickname"
-            required
-          /><br /><br />
+          <label for="nickname">카톡방 닉네임:</label>
+          <input type="text" id="nickname" name="nickname" required />
 
-          <label for="email">이메일:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
+          <label for="email">이메일:</label>
+          <input type="email" id="email" name="email" required />
 
-          <label for="message">메세지:</label><br />
-          <textarea id="message" name="message" rows="10" cols="50"></textarea
-          ><br /><br />
+          <label for="message">메세지:</label>
+          <textarea id="message" name="message" rows="10" cols="50"></textarea>
 
           <button type="submit">보내기</button>
-        </form>
+        </form> -->
       </section>
     </main>
 

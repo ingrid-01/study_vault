@@ -20,6 +20,10 @@ header {
   margin: 0px 0px 10px;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .logo img {
   width: 120px;
   height: auto;

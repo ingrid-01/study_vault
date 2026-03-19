@@ -40,9 +40,14 @@ section {
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  border: 1px solid #585858;
+  border: none;
   font-size: small;
   padding: 10px;
+}
+
+.item h2 {
+  text-align: center;
+  margin: 0;
 }
 
 .item img {
