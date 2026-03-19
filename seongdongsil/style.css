@@ -14,14 +14,6 @@ body {
   min-height: 100vh;
 }
 
-main {
-  flex-grow: 1;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  gap: 30px;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -35,16 +27,13 @@ header {
   height: auto;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
 
 li {
-  font-family:
-    nanum myeongjo,
-    serif;
   padding: 0 1rem;
 }
 

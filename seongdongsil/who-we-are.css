@@ -1,11 +1,15 @@
-body h2 {
+main {
   display: flex;
-  font-family:
-    nanum myeonjo,
-    serif;
+  flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
-  margin: 20px;
+  gap: 30px;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 section {
@@ -52,10 +56,4 @@ section {
 
 #why-are-we .item:first-child {
   grid-row: span 2;
-}
-
-p {
-  font-family:
-    nanum myeongjo,
-    serif;
 }
