@@ -36,11 +36,11 @@ section {
   padding: 10px;
 }
 
-/* .item img{
-  width: 100%;
+.item img {
+  width: 106%;
   height: 100%;
   object-fit: cover;
-}*/
+}
 
 #who-are-we .item:nth-child(3) {
   grid-column: span 2;
@@ -52,4 +52,10 @@ section {
 
 #why-are-we .item:first-child {
   grid-row: span 2;
+}
+
+p {
+  font-family:
+    nanum myeongjo,
+    serif;
 }
