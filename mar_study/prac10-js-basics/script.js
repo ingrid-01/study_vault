@@ -1,6 +1,6 @@
-const btn = document.getElementById("btn");
-const title = document.getElementById("title");
+function greet(name) {
+  return "안녕하세요, " + name + "!";
+}
 
-btn.addEventListener("click", function () {
-  title.textContent = "안녕하세요!";
-});
+greet("Ingrid");
+greet("Lisa");
